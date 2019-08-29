@@ -1,0 +1,28 @@
+public class Arrow : Bow {
+  
+  private static readonly int[] _SPAWN_COUNT = { 1, 2, 3, 4, 5, 6, 7 };
+  private static readonly int[] _SPAWN_WEIGHT = { 35, 25, 15, 10, 8, 5, 2 };
+
+  public Arrow(bool spawnGroup = false) {
+    _name = "Arrow";
+    _stackLimit = 10;
+
+    if (spawnGroup) {
+      var usesIndex = Helpers.RandomResultWeighted(_SPAWN_WEIGHT);
+      _stackSize = _SPAWN_COUNT[usesIndex];
+    }
+    else {
+      _stackSize = 1;
+    }
+  }
+
+  public Arrow(int amount) {
+    _name = "Arrow";
+    _stackLimit = 10;
+    _stackSize = amount;
+  }
+
+  public void Destroy() {
+    // Destroy arrow
+  }
+}

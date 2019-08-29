@@ -1,0 +1,10 @@
+C:\Users\regis\Dropbox\Rock\obj\Debug\netcoreapp2.1\Rock.csproj.CoreCompileInputs.cache
+C:\Users\regis\Dropbox\Rock\obj\Debug\netcoreapp2.1\Rock.AssemblyInfoInputs.cache
+C:\Users\regis\Dropbox\Rock\obj\Debug\netcoreapp2.1\Rock.AssemblyInfo.cs
+C:\Users\regis\Dropbox\Rock\bin\Debug\netcoreapp2.1\Rock.deps.json
+C:\Users\regis\Dropbox\Rock\bin\Debug\netcoreapp2.1\Rock.runtimeconfig.json
+C:\Users\regis\Dropbox\Rock\bin\Debug\netcoreapp2.1\Rock.runtimeconfig.dev.json
+c:\Users\regis\Dropbox\Rock\bin\Debug\netcoreapp2.1\Rock.dll
+c:\Users\regis\Dropbox\Rock\bin\Debug\netcoreapp2.1\Rock.pdb
+c:\Users\regis\Dropbox\Rock\obj\Debug\netcoreapp2.1\Rock.dll
+c:\Users\regis\Dropbox\Rock\obj\Debug\netcoreapp2.1\Rock.pdb
