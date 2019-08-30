@@ -25,6 +25,7 @@ public class Backpack : Item {
         Console.WriteLine(i + " - slot size " + slot._stackSize);
         Console.WriteLine(i + " - item size " + item._stackSize);
 
+
         // Will fit in one slot
         if (slot._stackSize + item._stackSize <= slot._stackLimit) {
           Console.WriteLine("One shot");
@@ -62,7 +63,7 @@ public class Backpack : Item {
 
         // Instanciate item
         var newItem = Helpers.GetInstance<Item>(item.GetType());
-        
+
 
         // Will fit in one slot
         if (item._stackSize <= item._stackLimit) {
@@ -72,7 +73,6 @@ public class Backpack : Item {
         }
         // Only part of the stack will fit, split it and put part of it in the spot
         else {
-          
           Console.WriteLine("Split");
           int overflow = item._stackSize - item._stackLimit;
           

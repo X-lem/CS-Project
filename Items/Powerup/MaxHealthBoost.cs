@@ -1,14 +1,15 @@
 public class MaxHealthBoost : Powerup {
 
-  double _maxHealthIncrease = 5;
+  double _maxHealthIncrease = 25;
 
   public MaxHealthBoost() {
 
   }
 
-  public double Use() {
-    return _maxHealthIncrease;
+  public override void Use(Player player) {
 
+    player.AdjustMaxHealth(_maxHealthIncrease);
+    
     // detroy object
   }
 }

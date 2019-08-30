@@ -4,6 +4,4 @@ public class Bomb : Item {
     _name = "Bomb";
     _stackLimit = 10;
   }
-
-  
 }

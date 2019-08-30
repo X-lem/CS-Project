@@ -53,4 +53,9 @@ public class Player {
       // die
     }
   }
+
+  // Increase or decrease max health with a positive or negative number respectively
+  public void AdjustMaxHealth(double amount) {
+    _maxHealth += amount;
+  }
 }
