@@ -2,7 +2,12 @@ using System;
 
 public class Archer : Enemy {
 
-  private static readonly Object[] _DROPS = { new Coin(Coin.Wealth.Rich), new Potion(), new Arrow(5), new Bow() };
+  private static readonly Object[] _DROPS = { 
+                                        new Coin(Coin.Wealth.Rich),
+                                        new Potion(),
+                                        new Arrow(5),
+                                        new Bow()
+                                    };
   private static readonly int[] _DROPS_WEIGHT = { 50, 25, 20, 5 };
   private Item _drop;
 
