@@ -17,6 +17,8 @@ public abstract class Player {
     _equiped = null;
   }
 
+  public abstract bool CanUseWeapon(Item item);
+
   // Item handle
   public void GiveItem(Item item) {
     _pocket = item;
