@@ -1,16 +1,13 @@
-public class Player {
+public abstract class Player {
 
-  private double _maxHealth;
-  private double _health;
-  private int _coins = 0;
+  protected double _maxHealth;
+  protected double _health;
+  protected double _damageModifier = 1;
+  protected int _coins = 0;
 
 
-  private Weapon _equiped = null;
-  private Item _pocket = null;
-
-  public Player() {
-
-  }
+  protected Weapon _equiped = null;
+  protected Item _pocket = null;
 
   // Weapon handle
   public void GiveWeapon(Weapon weapon) {
